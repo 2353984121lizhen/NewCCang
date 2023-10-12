@@ -32,13 +32,16 @@ int main() {
 			DelContact(&con);
 			break;
 		case SEARCH:
+			SearchContact(&con);
 			break;
 		case MODIFY:
+			ModifyContact(&con);
 			break;
 		case SHOW:
 			ShowContact(&con);
 			break;
 		case SORT:
+			SortContact(&con);
 			break;
 		case EXIT:
 			break;
